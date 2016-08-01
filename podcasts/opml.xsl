@@ -39,9 +39,9 @@
             </a>
           </td>
           <td>
-              <xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note/@text" />
-              <xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note/@tags" />
-              <xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note[@text='Away From The Keyboard']/tags" />
+              [<xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note/@text" />]
+              [<xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note/@tags" />]
+              [<xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note[@text='Away From The Keyboard']/tags" />]
           </td>
         </tr>
       </xsl:for-each>
