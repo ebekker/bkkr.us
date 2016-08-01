@@ -26,6 +26,7 @@
     <table border="1">
       <tr bgcolor="#9acd32">
         <th>Podcast</th>
+        <th>Tags</th>
       </tr>
       <xsl:for-each select="opml/body/outline/outline">
         <tr>
@@ -36,6 +37,9 @@
               </xsl:attribute>
               <xsl:value-of select="@text"/>
             </a>
+          </td>
+          <td>
+              <xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/tags" />
           </td>
         </tr>
       </xsl:for-each>
