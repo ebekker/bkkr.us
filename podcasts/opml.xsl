@@ -30,8 +30,8 @@
   <body>
     <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
     
-    <li class="label label-primary">techie      <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='techie'])"/>     </span></span></li>
-    <li class="label label-primary">semi-techie <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='semi-techie'])"/></span></span></li>
+    <li class="label label-primary">techie      <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='techie'])"/>     </span></li>
+    <li class="label label-primary">semi-techie <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='semi-techie'])"/></span></li>
     <li><span class="label label-primary">stories     <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='stories'])"/>    </span></span></li>
     <li><span class="label label-primary">business    <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='business'])"/>   </span></span></li>
     
