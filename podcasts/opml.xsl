@@ -30,6 +30,8 @@
   <body>
     <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
     
+    FOO:  [<xsl:value-of select="document('https://raw.githubusercontent.com/ebekker/bkkr.us/gh-pages/podcasts/podcast-notes.xml')/podcast-notes/@title" />]
+    
     <ul>
         <li><span class="label label-primary">techie      <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='techie'])"/>     </span></span></li>
         <li><span class="label label-primary">semi-techie <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='semi-techie'])"/></span></span></li>
