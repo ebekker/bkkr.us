@@ -27,7 +27,7 @@
             </a>
           </td>
           <td>
-              [<xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/@tags" />]
+              <xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/@tags" />
           </td>
         </tr>
       </xsl:for-each>
