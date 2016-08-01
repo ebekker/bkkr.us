@@ -30,10 +30,10 @@
   <body>
     <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
     
-    <div><span class="label label-primary">techie      <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='techie'])"/>     </span></span></div>
-    <div><span class="label label-primary">semi-techie <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='semi-techie'])"/></span></span></div>
-    <div><span class="label label-primary">stories     <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='stories'])"/>    </span></span></div>
-    <div><span class="label label-primary">business    <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='business'])"/>   </span></span></div>
+    <h3><span class="label label-primary">techie      <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='techie'])"/>     </span></span></h3>
+    <h3><span class="label label-primary">semi-techie <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='semi-techie'])"/></span></span></h3>
+    <h3><span class="label label-primary">stories     <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='stories'])"/>    </span></span></h3>
+    <h3><span class="label label-primary">business    <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='business'])"/>   </span></span></h3>
     
     <table data-toggle="table" data-striped="true">
         <thead>
