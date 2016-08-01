@@ -15,9 +15,7 @@
     <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
     
     <pre>
-        0: <xsl:value-of select="document(podcast-notes.xml)/podcast-notes" />
-        1: <xsl:value-of select="document(podcast-notes.xml)/podcast-notes@title" />
-        2: <xsl:value-of select="document(podcast-notes.xml)/podcast-notes/@title" />
+        0: <xsl:value-of select="/opml/head/title" />
     </pre>
     
     <xsl:value-of select="$notes" />
