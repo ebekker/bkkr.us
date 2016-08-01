@@ -31,7 +31,7 @@
     <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
     
     <table data-toggle="table" data-striped="true">
-      <tr bgcolor="#9acd32">
+      <tr>
         <th data-field="podcast"
             data-sortable="true">Podcast</th>
         <th data-field="tags"
@@ -48,7 +48,8 @@
             </a>
           </td>
           <td>
-              <xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/@tags" />
+          <span class="label label-primary"></span><xsl:value-of
+                select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/@tags" /></span>
           </td>
         </tr>
       </xsl:for-each>
