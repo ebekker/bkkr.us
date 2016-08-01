@@ -3,6 +3,9 @@
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<xsl:variable name="notesFile" select="podcast-notes.xml" />
+<xsl:variable name="notes" select="document($notesFile)/podcast-notes/notes" />
+
 <xsl:template match="/">
   <html>
   <head>
@@ -10,6 +13,9 @@
   </head>
   <body>
     <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
+    
+    <xsl:value-of select="$notes" />
+    
     <table border="1">
       <tr bgcolor="#9acd32">
         <th>Podcast</th>
