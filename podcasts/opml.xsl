@@ -40,7 +40,7 @@
           </td>
           <td>
               [<xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note/@text" />]
-              [<xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note/@tags" />]
+              [<xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/@tags" />]
               [<xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note[@text='Away From The Keyboard']/@tags" />]
           </td>
         </tr>
