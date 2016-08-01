@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<podcast-notes>
+      <note text="Away From The Keyboard"
+          tags="semi-techie" />
+      <note text="MarketFoolery"
+          tags="financial" />
+      <note text="AWS re:Invent 2014" xmlUrl="https://s3.amazonaws.com/reinvent-podcasts/AWS_reInvent2014_Podcast.xml"
+          tags="techie" />
+      <note text="Coding Blocks | Software and Web Programming / Security / Best Practices / Microsoft .NET"
+          tags="techie" />
+      <note text="The Stack Exchange Podcast"
+          tags="techie"
+</podcast-notes>
