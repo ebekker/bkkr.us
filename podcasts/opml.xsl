@@ -48,7 +48,7 @@
             </a>
           </td>
           <td>
-          <span class="label label-primary"></span><xsl:value-of
+          <span class="label label-primary"><xsl:value-of
                 select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/@tags" /></span>
           </td>
         </tr>
