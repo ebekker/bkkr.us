@@ -38,7 +38,6 @@
     <table data-toggle="table"
             data-striped="true"
             data-search="true"
-            data-show-refresh="true"
             data-show-columns="true">
         <thead>
           <tr>
@@ -48,22 +47,24 @@
                 data-sortable="true">Tags</th>
           </tr>
         </thead>
-          <xsl:for-each select="opml/body/outline/outline">
-        <tr>
-          <td>
-            <a>
-              <xsl:attribute name="href">
-                <xsl:value-of select="@xmlUrl" />
-              </xsl:attribute>
-              <xsl:value-of select="@text"/>
-            </a>
-          </td>
-          <td>
-          <span class="label label-primary"><xsl:value-of
-                select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/@tags" /></span>
-          </td>
-        </tr>
-      </xsl:for-each>
+        <tbody>
+        <xsl:for-each select="opml/body/outline/outline">
+            <tr>
+              <td>
+                <a>
+                  <xsl:attribute name="href">
+                    <xsl:value-of select="@xmlUrl" />
+                  </xsl:attribute>
+                  <xsl:value-of select="@text"/>
+                </a>
+              </td>
+              <td>
+              <span class="label label-primary"><xsl:value-of
+                    select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/@tags" /></span>
+              </td>
+            </tr>
+          </xsl:for-each>
+        </tbody>
     </table>
   </body>
   </html>
