@@ -4,7 +4,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:variable name="notesFile" select="podcast-notes.xml" />
-<xsl:variable name="notes" select="document($notesFile)/podcast-notes/notes" />
+<xsl:variable name="notes" select="document($notesFile)/podcast-notes/note" />
 
 <xsl:template match="/">
   <html>
@@ -17,8 +17,9 @@
     <pre>
         0: <xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note/@text" />
     </pre>
-    
-    <xsl:value-of select="$notes" />
+    <pre>
+        <xsl:value-of select="$notes" />
+    </pre>
     
     <table border="1">
       <tr bgcolor="#9acd32">
