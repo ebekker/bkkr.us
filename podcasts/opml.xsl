@@ -5,6 +5,9 @@
 
 <xsl:template match="/">
   <html>
+  <head>
+      <title><xsl:value-of select="/opml/head/title"/></title>
+  </head>
   <body>
     <h2>My CD Collection</h2>
     <table border="1">
@@ -12,7 +15,7 @@
         <th>Name</th>
         <th>URL</th>
       </tr>
-      <xsl:for-each select="body/outline/outline">
+      <xsl:for-each select="opml/body/outline/outline">
         <tr>
           <td><xsl:value-of select="@text"/></td>
           <td><xsl:value-of select="@xmlUrl"/></td>
