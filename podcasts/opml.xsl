@@ -6,12 +6,20 @@
 <xsl:template match="/">
   <html>
   <head>
-      <title>My Podcasts:  <xsl:value-of select="/opml/head/title"/></title>
+    <title>My Podcasts:  <xsl:value-of select="/opml/head/title"/></title>
+
+    <!-- Bootstrap Table: -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"></script>
+    <!-- Latest compiled and minified Locales -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/locale/bootstrap-table-en-US.min.js"></script>
   </head>
   <body>
     <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
     
-    <table border="1">
+    <table data-toggle="table">
       <tr bgcolor="#9acd32">
         <th>Podcast</th>
         <th>Tags</th>
