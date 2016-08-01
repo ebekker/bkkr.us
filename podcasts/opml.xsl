@@ -35,7 +35,11 @@
     <h3><span class="label label-primary">stories     <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='stories'])"/>    </span></span></h3>
     <h3><span class="label label-primary">business    <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='business'])"/>   </span></span></h3>
     
-    <table data-toggle="table" data-striped="true">
+    <table data-toggle="table"
+            data-striped="true"
+            data-search="true"
+            data-show-refresh="true"
+            data-show-columns="true">
         <thead>
           <tr>
             <th data-field="podcast"
