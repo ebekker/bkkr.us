@@ -16,7 +16,8 @@
     
     <pre>
         0: <xsl:value-of select="document('podcast-notes.xml')/podcast-notes/note/@text" />
-        1: <xsl:value-of select="$notes/@text" />
+        1: <xsl:value-of select="document($notesFile)/podcast-notes/note/@text" />
+        2: <xsl:value-of select="$notes/@text" />
     </pre>
     <pre>
         <xsl:value-of select="$notes" />
