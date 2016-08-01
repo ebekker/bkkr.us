@@ -30,10 +30,12 @@
   <body>
     <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
     
-    <table data-toggle="table">
+    <table data-toggle="table" data-striped="true">
       <tr bgcolor="#9acd32">
-        <th>Podcast</th>
-        <th>Tags</th>
+        <th data-field="podcast"
+            data-sortable="true">Podcast</th>
+        <th data-field="tags"
+            data-sortable="true">Tags</th>
       </tr>
       <xsl:for-each select="opml/body/outline/outline">
         <tr>
