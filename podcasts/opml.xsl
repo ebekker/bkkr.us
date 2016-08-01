@@ -6,19 +6,24 @@
 <xsl:template match="/">
   <html>
   <head>
-      <title><xsl:value-of select="/opml/head/title"/></title>
+      <title>My Podcasts:  <xsl:value-of select="/opml/head/title"/></title>
   </head>
   <body>
-    <h2>My CD Collection</h2>
+    <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
     <table border="1">
       <tr bgcolor="#9acd32">
-        <th>Name</th>
-        <th>URL</th>
+        <th>Podcast</th>
       </tr>
       <xsl:for-each select="opml/body/outline/outline">
         <tr>
-          <td><xsl:value-of select="@text"/></td>
-          <td><xsl:value-of select="@xmlUrl"/></td>
+          <td>
+            <a>
+              <xsl:attribute name="href">
+                <xsl:value-of select="@xmlUrl" />
+              </xsl:attribute>
+              <xsl:value-of select="@text"/>
+            </a>
+          </td>
         </tr>
       </xsl:for-each>
     </table>
