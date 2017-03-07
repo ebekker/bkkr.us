@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/ebekker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bkkr.us
+  * I am ebekker (https://keybase.io/ebekker) on keybase.
+  * I have a public key with fingerprint F658 EF17 A6DC 553F EE7E  B2AC F865 DA64 410F 5402
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010112f02ab2e3810b33b306d75612598845181eb1946e5e200d3ab105cfd515cb6c0a",
+            "fingerprint": "f658ef17a6dc553fee7eb2acf865da64410f5402",
+            "host": "keybase.io",
+            "key_id": "f865da64410f5402",
+            "kid": "010112f02ab2e3810b33b306d75612598845181eb1946e5e200d3ab105cfd515cb6c0a",
+            "uid": "b08660cb6a4c487c74b5d9a1911f8219",
+            "username": "ebekker"
+        },
+        "service": {
+            "hostname": "bkkr.us",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1488906288,
+    "expire_in": 157680000,
+    "prev": "dcf9d23121b9a23a1b4606ff365d152464871ba855e297ff340ff57ea3660ad6",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJbSBVBGD5WXqPUlwqs0H2I6ojM7O7M2T1hBRGIhFBBlFTHmd3Z43p0
+z3F3PXU8CKlRERVFEdHNIvShK5mldCPtglCJUUEEQYWIGBWhmWW3Wam3HpuXYT6+
+75vv//jvzZjqy0ppOjGxJjeOFqY87D5Q51t/ewgkBRrVE0IwKUTY5MWqdea4oYip
+C0EBQAChaACRUJFJCgRUkqgEsB5AGIpIVRQZQQUyClUZM8REAHSJUAiQZugIIo1i
+DRChUDBMK8zsmG1aLrc1MFKYAQME6xpCksFYgFGRaIaCkU6wLENgIBmIXFgZdTwF
+D0eJw4rMKMf4IzQZ7x/8/5y7btKOAgVjwEEia7IS0AIyRbpKoAqhoYhQ9YgOsy1S
+wzibURaJMFtoKBQ4GDc15vXqDfKHQCMRu6jO4aqYHXWjWrSag5WuG3OCnshNxDzW
+FkZDf/Qhalo6b5Ar4sx2zKglBCFnaq7pGUJZUVSARUUpFNjWmGmzkOkxUAArgB/v
+HxbnlrpmqLooQRFSlYgSgVTGABuGxGuESJQxHw5SoiDeiBrguAwMAwUYkfj4RMeC
+N1GtFRWCMo9JwtzSMcMWcetsJjT03Nk4zZeS5UtLneJtli8rM+fvvmVvz/D1H/MF
+a33zlxutUsfpLx+G1fJrRH06urrskb/Rf3HXokTy5+fNjVVdh2cUj8zef2t05bb6
+HzULWhJVJ9Mbl2742jurreRKReb5F9cL9h1fPytn77qel8Xj1o1vpGXwbfWTV/Xq
+4sOlr3ubFnfOHdt0Mf3ZvveydVTa83zF2l0lY8vPXzqT2s9Y8t5Y+VsrNHC3Iacj
+BnfoH/OsI5e3p/2cqdbgq0PfK8uGsz/5WWfVhYcLSg/+Sr3Z3t2eUppeFMrPy3g8
+sGRD+zJxXprRPC6Vi4dyp4R3HzrbMv3Bfda8M38Ne916dM65K6s2trGuzOSrvqkT
+p7LvV5wrGBl+0zfa4H/XM/gbYdE8hg==
+=3psM
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ebekker
+
+==================================================================
