@@ -7,3 +7,5 @@
 * [What Do Programmers Care About - Joel Spolsky, Stack Overflow](https://www.youtube.com/watch?v=yLyALWAp8IM&spfreload=1)
 * [You Suck at Excel with Joel Spolsky](https://www.youtube.com/watch?v=0nbkaYsR94c)
 * [Joel Spolksy at Startup School 2012](https://www.youtube.com/watch?v=pPJf8KrvJXU)
+
+* [A Hitchhikers Guide to the CoreCLR Source Code](http://mattwarren.org/2017/03/23/Hitchhikers-Guide-to-the-CoreCLR-Source-Code/)
