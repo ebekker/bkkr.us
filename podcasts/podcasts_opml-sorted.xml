@@ -1,9 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/css" href="opml.xsl"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="opml.xsl"?>
 <opml version="1.0">
   <head>
     <title>Pocket Casts Feeds</title>
   </head>
+  <params>
+    <feedType>Podcast</feedType>
+    <notesFile>podcast-notes.xml</notesFile>
+    <listSelect>outline2</listSelect>
+  </params>
   <body>
     <outline text="feeds">
       <outline type="rss" text=".future" xmlUrl="https://feeds.megaphone.fm/future" />
