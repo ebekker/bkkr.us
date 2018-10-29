@@ -36,7 +36,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="outline">
+    <xsl:template match="body|outline">
         <xsl:copy>
             <xsl:apply-templates select="@*" />
             <xsl:apply-templates select="outline">
