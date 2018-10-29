@@ -3,10 +3,14 @@
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<xsl:param name="feedType" select="/opml/params/feedType" />
+<xsl:param name="notesFile" select="/opml/params/notesFile" />
+<xsl:param name="listSelect" select="/opml/params/listSelect" />
+
 <xsl:template match="/">
   <html>
   <head>
-    <title>My Podcasts:  <xsl:value-of select="/opml/head/title"/></title>
+    <title>My <xsl:value-of select="$feedType" />s:  <xsl:value-of select="/opml/head/title"/></title>
 
     <!-- jQuery: -->
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.3.min.js"></script>
@@ -28,13 +32,13 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/locale/bootstrap-table-en-US.min.js"></script>
   </head>
   <body>
-    <h2>My Podcasts:  <xsl:value-of select="/opml/head/title"/></h2>
+    <h2>My <xsl:value-of select="$feedType" />s:  <xsl:value-of select="/opml/head/title"/></h2>
     
     <ul>
-        <li><span class="label label-primary">techie      <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='techie'])"/>     </span></span></li>
-        <li><span class="label label-primary">semi-techie <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='semi-techie'])"/></span></span></li>
-        <li><span class="label label-primary">stories     <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='stories'])"/>    </span></span></li>
-        <li><span class="label label-primary">business    <span class="badge"><xsl:value-of select="count(document('podcast-notes.xml')/podcast-notes/note[@tags='business'])"/>   </span></span></li>
+        <li><span class="label label-primary">techie      <span class="badge"><xsl:value-of select="count(document($notesFile)/podcast-notes/note[@tags='techie'])"/>     </span></span></li>
+        <li><span class="label label-primary">semi-techie <span class="badge"><xsl:value-of select="count(document($notesFile)/podcast-notes/note[@tags='semi-techie'])"/></span></span></li>
+        <li><span class="label label-primary">stories     <span class="badge"><xsl:value-of select="count(document($notesFile)/podcast-notes/note[@tags='stories'])"/>    </span></span></li>
+        <li><span class="label label-primary">business    <span class="badge"><xsl:value-of select="count(document($notesFile)/podcast-notes/note[@tags='business'])"/>   </span></span></li>
     </ul>
     
     <table data-toggle="table"
@@ -44,13 +48,29 @@
         <thead>
           <tr>
             <th data-field="podcast"
-                data-sortable="true">Podcast</th>
+                data-sortable="true"><xsl:value-of select="$feedType" /></th>
             <th data-field="tags"
                 data-sortable="true">Tags</th>
           </tr>
         </thead>
         <tbody>
-        <xsl:for-each select="opml/body/outline/outline">
+        <xsl:if test="$listSelect='outline1'">
+          <xsl:for-each select="opml/body/outline">
+            <xsl:apply-templates select="." />
+          </xsl:for-each>
+        </xsl:if>
+        <xsl:if test="$listSelect='outline2'">
+          <xsl:for-each select="opml/body/outline/outline">
+            <xsl:apply-templates select="." />
+          </xsl:for-each>
+        </xsl:if>
+        </tbody>
+    </table>
+  </body>
+  </html>
+</xsl:template>
+
+<xsl:template match="outline">
             <tr>
               <td>
                 <a>
@@ -62,14 +82,10 @@
               </td>
               <td>
               <span class="label label-primary"><xsl:value-of
-                    select="document('podcast-notes.xml')/podcast-notes/note[@text=current()/@text]/@tags" /></span>
+                    select="document($notesFile)/podcast-notes/note[@text=current()/@text]/@tags" /></span>
+              <xsl:if test="count(document($notesFile)/podcast-notes/note[@text=current()/@text]/@tags)=0"><i style="color: lightgray">(not tagged yet)</i></xsl:if>
               </td>
             </tr>
-          </xsl:for-each>
-        </tbody>
-    </table>
-  </body>
-  </html>
 </xsl:template>
 
 </xsl:stylesheet>
