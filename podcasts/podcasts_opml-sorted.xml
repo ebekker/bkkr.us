@@ -40,6 +40,7 @@
       <outline type="rss" text="Every Little Thing" xmlUrl="http://feeds.gimletmedia.com/eltshow" />
       <outline type="rss" text="Freakonomics Radio" xmlUrl="http://feeds.feedburner.com/freakonomicsradio" />
       <outline type="rss" text="Get Up and CODE" xmlUrl="http://getupandcode1.libsyn.com/rss" />
+      <outline type="rss" text="Gone Mobile Podcast" xmlUrl="http://feed.gonemobile.io/" />
       <outline type="rss" text="Google Cloud Platform Podcast" xmlUrl="https://feeds.feedburner.com/GcpPodcast" />
       <outline type="rss" text="Grumpy Old Geeks - Covering tech news, security, movies, tv shows, and books for tech savvy adults" xmlUrl="http://grumpyoldgeeks.libsyn.com/rss" />
       <outline type="rss" text="Hacking Humans" xmlUrl="http://hackinghumans.libsyn.com/rss" />
@@ -89,11 +90,13 @@
       <outline type="rss" text="Startups For the Rest of Us" xmlUrl="https://www.startupsfortherestofus.com/feed" />
       <outline type="rss" text="Surprisingly Awesome" xmlUrl="http://feeds.gimletmedia.com/surprisinglyawesome" />
       <outline type="rss" text="Test Talks" xmlUrl="https://joecolantonio.com/testtalks/feed/podcast/" />
+      <outline type="rss" text="The .NET Core Podcast" xmlUrl="http://thedotnetcorepodcast.libsyn.com/rss" />
       <outline type="rss" text="The 6 Figure Developer Podcast" xmlUrl="http://6figuredev.com/feed/podcast" />
       <outline type="rss" text="The Azure Podcast" xmlUrl="http://feeds.feedburner.com/TheAzurePodcast" />
       <outline type="rss" text="The Changelog" xmlUrl="https://changelog.com/podcast/feed" />
       <outline type="rss" text="The Cloudcast (.net) - Weekly Cloud Computing Podcast" xmlUrl="https://feeds.buzzsprout.com/3195.rss" />
       <outline type="rss" text="The CyberWire" xmlUrl="http://thecyberwire.libsyn.com/rss" />
+      <outline type="rss" text="The Cynical Developer" xmlUrl="https://cynicaldeveloper.com/feed/podcast/" />
       <outline type="rss" text="The Hello World Podcast" xmlUrl="http://hwpod.libsyn.com/rss" />
       <outline type="rss" text="The InfoQ Podcast" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:215740450/sounds.rss" />
       <outline type="rss" text="The Pitch" xmlUrl="https://feeds.megaphone.fm/thepitch" />

@@ -22,7 +22,9 @@
       <outline type="rss" text="Behind The Tech with Kevin Scott" xmlUrl="http://behindthetech.mpsn.libsynpro.com/rss" />
       <outline type="rss" text="Rule Breaker Investing" xmlUrl="https://rulebreakerinvesting.libsyn.com/rss" />
       <outline type="rss" text="Mixergy - Startup Stories with 1000+ entrepreneurs and businesses" xmlUrl="https://mixergy.com/?feed=mixergy_feed&amp;rss_source=itunes&amp;" />
+      <outline type="rss" text="Gone Mobile Podcast" xmlUrl="http://feed.gonemobile.io/" />
       <outline type="rss" text="Motley Fool Money" xmlUrl="http://feeds2.feedburner.com/MotleyFoolMoney" />
+      <outline type="rss" text="The .NET Core Podcast" xmlUrl="http://thedotnetcorepodcast.libsyn.com/rss" />
       <outline type="rss" text="Dan Carlin's Hardcore History" xmlUrl="http://feeds.feedburner.com/dancarlin/history?format=xml" />
       <outline type="rss" text="This Developer's Life" xmlUrl="http://feeds.feedburner.com/ThisDevelopersLife" />
       <outline type="rss" text="no dogma podcast" xmlUrl="https://rss.simplecast.com/podcasts/6848/rss" />
@@ -95,6 +97,7 @@
       <outline type="rss" text="AWS TechChat" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:228283955/sounds.rss" />
       <outline type="rss" text="Herding Code" xmlUrl="http://feeds.feedburner.com/herdingcode" />
       <outline type="rss" text="The Venture" xmlUrl="http://feeds.gimletcreative.com/theventureshow" />
+      <outline type="rss" text="The Cynical Developer" xmlUrl="https://cynicaldeveloper.com/feed/podcast/" />
       <outline type="rss" text="AWS Podcast" xmlUrl="http://d1i0y6b5oi739x.cloudfront.net/feed.xml" />
       <outline type="rss" text="StartUp Podcast" xmlUrl="http://feeds.hearstartup.com/hearstartup" />
       <outline type="rss" text="Reply All" xmlUrl="HTTP://Feeds.gimletmedia.com/hearreplyall" />
