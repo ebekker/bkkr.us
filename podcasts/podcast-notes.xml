@@ -11,6 +11,32 @@
       <note text="The Stack Exchange Podcast"
           tags="techie" />
 
+      <note text="The CyberWire Daily"
+	      tags="semi-techie" />
+      <note text="Dr Karl Podcast"
+	      tags="stories" />
+      <note text="Decipher Security Podcast"
+	      tags="semi-techie" />
+      <note text="The Xamarin Podcast"
+	      tags="techie" />
+      <note text="Pulling the Strings"
+	      tags="techie" />
+      <note text="Merge Conflict"
+	      tags="techie" />
+      <note text="Indie Hackers"
+	      tags="stories" />
+      <note text="The .NET Core Podcast"
+	      tags="techie" />
+      <note text="no dogma podcast"
+	      tags="techie" />
+      <note text="SANS Internet Stormcenter Daily Network/Cyber Security and Information Security Stormcast"
+	      tags="techie" />
+      <note text="Jordan Harbinger Show"
+	      tags="business" />
+      <note text="Acquired"
+	      tags="business" />
+
+
       <note text="Engineers &amp; Coffee"
 	      tags="techie" />
       <note text="The Hello World Podcast"
@@ -109,7 +135,7 @@
 	      tags="semi-techie" />
       <note text="Microsoft Cloud Show"
 	      tags="techie" />
-      <note text="The Changelog"
+      <note text="The Changelog: Software Dev &amp; Open Source"
 	      tags="techie" />
       <note text="Angular Air"
 	      tags="techie" />
