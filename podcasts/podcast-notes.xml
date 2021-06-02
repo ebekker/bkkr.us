@@ -15,6 +15,16 @@
 	      tags="semi-techie" />
       <note text="Dr Karl Podcast"
 	      tags="stories" />
+      <note text="Darknet Diaries"
+	      tags="stories" />
+      <note text="Malicious Life"
+	      tags="stories" />
+      <note text="People I (Mostly) Admire"
+	      tags="stories" />
+      <note text="Techmeme Ride Home"
+	      tags="semi-techie" />
+      <note text="Techmeme Ride Home+ Premium Feed"
+	      tags="semi-techie" />
       <note text="Decipher Security Podcast"
 	      tags="semi-techie" />
       <note text="The Xamarin Podcast"
@@ -24,10 +34,12 @@
       <note text="Merge Conflict"
 	      tags="techie" />
       <note text="Indie Hackers"
-	      tags="stories" />
+	      tags="semi-techie" />
       <note text="The .NET Core Podcast"
 	      tags="techie" />
       <note text="no dogma podcast"
+	      tags="techie" />
+      <note text="Adventures in .NET"
 	      tags="techie" />
       <note text="SANS Internet Stormcenter Daily Network/Cyber Security and Information Security Stormcast"
 	      tags="techie" />
@@ -35,6 +47,8 @@
 	      tags="business" />
       <note text="Acquired"
 	      tags="business" />
+      <note text="Armchair Expert with Dax Shepard"
+	      tags="stories" />
 
 
       <note text="Engineers &amp; Coffee"

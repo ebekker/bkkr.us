@@ -55,10 +55,10 @@
     <outline text="Malwarebytes Labs" title="Malwarebytes Labs" type="rss" xmlUrl="http://blog.malwarebytes.org/feed/" htmlUrl="https://blog.malwarebytes.com" />
     <outline text="Microsoft Azure Blog" title="Microsoft Azure Blog" type="rss" xmlUrl="http://azure.microsoft.com/blog/feed/" htmlUrl="https://azure.microsoft.com/blog/" />
     <outline text="Microsoft Secure" title="Microsoft Secure" type="rss" xmlUrl="http://blogs.technet.com/mmpc/rss.xml" htmlUrl="https://cloudblogs.microsoft.com/microsoftsecure" />
+    <outline text="n-gate.com." title="n-gate.com." type="rss" xmlUrl="http://n-gate.com/index.rss" htmlUrl="http://n-gate.com/index.rss" />
     <outline text="Naked Security - Sophos" title="Naked Security - Sophos" type="rss" xmlUrl="http://feeds.feedburner.com/NakedSecurity" htmlUrl="https://nakedsecurity.sophos.com" />
     <outline text="Nate McMaster" title="Nate McMaster" type="rss" xmlUrl="http://www.natemcmaster.com/feed.xml" htmlUrl="https://natemcmaster.com/" />
     <outline text="Netgate Blog" title="Netgate Blog" type="rss" xmlUrl="http://blog.pfsense.org/?feed=rss2" htmlUrl="https://www.netgate.com" />
-    <outline text="n-gate.com." title="n-gate.com." type="rss" xmlUrl="http://n-gate.com/index.rss" htmlUrl="http://n-gate.com/index.rss" />
     <outline text="Okta Trust" title="Okta Trust" type="rss" xmlUrl="http://feeds.feedburner.com/OktaTrustRSS" />
     <outline text="Performance is a Feature!" title="Performance is a Feature!" type="rss" xmlUrl="http://mattwarren.github.io/atom.xml" htmlUrl="http://www.mattwarren.org/" />
     <outline text="PogsDotNet" title="PogsDotNet" type="rss" xmlUrl="http://www.pogsdotnet.com/feeds/posts/default?alt=rss" htmlUrl="http://www.pogsdotnet.com/" />
